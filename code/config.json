@@ -1,0 +1,13 @@
+{
+    "theme":"ipa-theme",
+    "appVersion": "1.0.0",
+    "basePagesUrl": "/pages/",
+    "profile": {
+        "username": "Courier",
+        "email": "",
+        "avatar": "resources/images/person.png"
+    },
+    "modals": {
+        "loadingModal": "loading-modal.html"
+    }
+}

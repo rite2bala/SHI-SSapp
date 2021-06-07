@@ -1,0 +1,43 @@
+{
+    "defaultMenuConfig": {
+        "icon": "fa-bars",
+        "type": "route",
+        "component": "psk-page-loader",
+        "exact": true,
+        "404": "/pages/404.html"
+    },
+    "pages": [{
+            "name": "login",
+            "tags": "login"
+        },
+        {
+            "name": "createdemokits",
+            "tags": "createdemokits"
+        },
+        {
+            "name": "adminlist",
+            "tags": "adminlist"
+        },
+        {
+            "name": "editkit",
+            "tags": "editkit"
+        },
+        {
+            "name": "courierlist",
+            "tags": "courierlist"
+        },
+        {
+            "name": "kitdetails",
+            "tags": "kitdetails"
+        },
+        {
+            "name": "audit",
+            "tags": "audit"
+        },
+        {
+            "name": "scan",
+            "tags": "scan"
+        }
+
+    ]
+}

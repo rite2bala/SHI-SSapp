@@ -1,0 +1,27 @@
+{
+  "name": "courier-ssapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./node_modules/octopus/scripts/run",
+    "prebuild": "node ./node_modules/octopus/scripts/run prebuild",
+    "build": "node ./bin/build.js",
+    "postbuild": "node ./node_modules/octopus/scripts/run postbuild",
+    "update": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ploznlu1/courier-ssapp.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ploznlu1/courier-ssapp/issues"
+  },
+  "homepage": "https://github.com/ploznlu1/courier-ssapp#readme",
+  "dependencies": {
+    "octopus": "git+http://github.com/privatesky/octopus.git#1.0.4"
+  }
+}
