@@ -1,0 +1,121 @@
+<psk-page>
+    <psk-layout row-gap="0.2em">
+        <psk-layout-item align="center" style="margin-top:20px">
+            <h5 class="shi-header">CONTRACTS</h5>
+            <h6 class="shi-header2">Recent Contracts:</h6>
+
+            <div class="responsive-table">
+                <table class="table table-borderless">
+                    <thead>
+                    <tr class="table-header" data-for="table-header">
+                        <td><label>CONTRACT ID</label></td>
+                        <td><label>INVOICE NUMBER</label></td>
+                        <td><label>INVOICE DATE</label></td>
+                        <td><label>INVOICE TOTAL GROSS</label></td>
+                        <td><label>INVOICE TOTAL NET</label></td>
+                        <td><label>INVOICE STATUS</label></td>
+                        <td><label>PAYMENT STATUS</label></td>
+                        <td><label>ACTION</label></td>
+                    </tr>
+                    </thead>
+                    <tbody class="table-body" data-for="@pagination.items">
+                    <tr class="table-row">
+                        <td><label>SHI9876</label></td>
+                        <td><label>SHI77561</label></td>
+                        <td><label>595</label></td>
+                        <td><label>500</label></td>
+                        <td><label>SHI1001</label></td>
+                        <td><label>approved</label></td>
+                        <td><label>paid</label></td>
+                        <td><webc-link tag="psk-card" chapter="shicontracts2">view</webc-link></td>
+                    </tr>
+                    <tr class="table-row">
+                        <td><label>SHI9876</label></td>
+                        <td><label>SHI77561</label></td>
+                        <td><label>595</label></td>
+                        <td><label>500</label></td>
+                        <td><label>SHI1001</label></td>
+                        <td><label>approved</label></td>
+                        <td><label>paid</label></td>
+                        <td><webc-link tag="psk-card" chapter="shicontracts2">view</webc-link></td>
+                    </tr>
+                    <tr class="table-row">
+                        <td><label>SHI9876</label></td>
+                        <td><label>SHI77561</label></td>
+                        <td><label>595</label></td>
+                        <td><label>500</label></td>
+                        <td><label>SHI1001</label></td>
+                        <td><label>approved</label></td>
+                        <td><label>paid</label></td>
+                        <td><webc-link tag="psk-card" chapter="shicontracts2">view</webc-link></td>
+                    </tr>
+                    <tr class="table-row">
+                        <td><label>SHI9876</label></td>
+                        <td><label>SHI77561</label></td>
+                        <td><label>595</label></td>
+                        <td><label>500</label></td>
+                        <td><label>SHI1001</label></td>
+                        <td><label>approved</label></td>
+                        <td><label>paid</label></td>
+                        <td><webc-link tag="psk-card" chapter="shicontracts2">view</webc-link></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </psk-layout-item>
+    </psk-layout>
+</psk-page>
+
+<style>
+    .shi-header {
+        font-size: 22px;
+        color: #0AA524;
+        font-weight: bold;
+        padding: 0px 0px 10px 0px;
+        margin: 20px 0px 10px 0px;
+    }
+    .shi-header2 {
+        font-size: 18px;
+        color: #0AA524;
+        padding: 0px 0px 10px 0px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .shi-input input,
+    .shi-input textarea,
+    .shi-input select {
+        border: 1.5px solid #0AA524;
+        border-radius: 9px;
+        min-height: 40px;
+    }
+
+    .shi-input label {
+        color: #0AA524;
+    }
+    .table {
+        background-color: #FFFFFF;
+        border: 1px solid #EBEBEB;
+    }
+    .table-header {
+        font-size: 18px;
+        color: #0AA524;
+        background-color: #EBEBEB;
+        font-weight: bold;
+        width: 300px;
+    }
+    td {
+        border: 1px solid #EBEBEB;
+        font-size: 14px;
+        width: 250px;
+    }
+    .table-row {
+        border: 1px solid #EBEBEB;
+    }
+
+    .navbar-img img {
+        margin-left: -65px;
+        margin-right: auto;
+        height: 57px;
+    }
+</style>
+

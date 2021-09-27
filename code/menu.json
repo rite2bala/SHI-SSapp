@@ -11,33 +11,24 @@
             "tags": "login"
         },
         {
-            "name": "createdemokits",
-            "tags": "createdemokits"
+            "name": "shicontracts",
+            "tags": "shicontracts"
         },
         {
-            "name": "adminlist",
-            "tags": "adminlist"
+            "name": "shicontracts2",
+            "tags": "shicontracts2"
         },
         {
-            "name": "editkit",
-            "tags": "editkit"
+            "name": "reimbursement",
+            "tags": "reimbursement"
         },
         {
-            "name": "courierlist",
-            "tags": "courierlist"
+            "name": "regulatoryrebates",
+            "tags": "regulatoryrebates"
         },
         {
-            "name": "kitdetails",
-            "tags": "kitdetails"
-        },
-        {
-            "name": "audit",
-            "tags": "audit"
-        },
-        {
-            "name": "scan",
-            "tags": "scan"
+            "name": "shitransactions",
+            "tags": "shitransactions"
         }
-
     ]
 }
