@@ -1,4 +1,4 @@
-const DOSSIER_SEED_FILE_PATH = "./seed";
+cd ..const DOSSIER_SEED_FILE_PATH = "./seed";
 const CARDINAL_SEED_FILE_PATH = "../cardinal/seed";
 const THEMES_PATH = "../themes";
 const DEFAULT_DOMAIN = "default";
